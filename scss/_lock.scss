@@ -1,0 +1,97 @@
+@import 'variables';
+
+#left{
+	position: relative;
+	float: left;
+	width: 8.3 * $column;
+	background-color: $background;
+	border-right: $leading solid $font-color;
+	height: 87 * $leading;
+	border-top-right-radius: 200 * $leading;
+}
+
+#right{
+	position: relative;
+	float: right;
+	width: 8.3 * $column;
+	background-color: $background;
+	border-left: $leading solid $font-color;
+	height: 87 * $leading;
+	border-top-left-radius: 200 * $leading;
+}
+
+#middle{
+	position: relative;
+	float: left;
+	width: 2.1 * $column;
+	height: 87 * $leading;
+}
+
+#zip{
+	width: 2 * $column;
+	// background-color: $font-color;
+	height: 10 * $leading;
+	margin-top: 1530px;
+	margin-left: 5px;
+}
+
+#nav{
+	position: fixed;
+	z-index: 10;
+	// margin-top: -1 * $leading;
+	margin-top: -26 * $leading;
+	nav{
+	width: 20 * $column;
+	height: 25.1 * $leading;
+	background-color: $menu;
+	z-index: 15;
+		ul{
+			list-style: none;
+			z-index: 15;
+			padding:{
+					top: $leading;
+			}
+
+			a{
+				text-decoration: none;
+
+				li{
+					font-size: 3 * $leading;
+					line-height: 6 * $leading;
+					margin:{
+						left: -3 * $leading;
+					}
+					text-align: center;
+					color: $background;
+					border-bottom: 1px solid $background;
+				}
+			}
+		}
+	}
+
+	#navhead{
+		position: absolute;
+		width: 3 * $column;
+		height: 5 * $leading;
+		background-color: $menu;
+		z-index: 12;	
+		margin-left: 8.3 * $column;
+	}
+}
+
+#instruct{
+	position: fixed;
+	width: 15 * $column;
+	background-color: $menu; 
+	opacity: 0.4;
+	font-size: 8 * $font-size;
+	z-index: 1;
+	text-align: center;
+	margin:{
+		left: 2.3 * $column;
+		top: 40 * $leading;
+	}
+	color: $background;
+	padding-top: 4 * $leading;
+	padding-bottom: 4 * $leading;
+}

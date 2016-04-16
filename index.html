@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BagLock</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		<center><img src="assets/baglock-logo.png"></center>
+		<h1>BagLock</h1>
+		<center><form name = 'myform' onsubmit = 'lock()'>
+			<div>
+				<input id="code1" class="codeit" type="password" maxlength="1">
+				<input id="code2" class="codeit" type="password" maxlength="1">
+				<input id="code3" class="codeit" type="password" maxlength="1">
+				<input id="code4" class="codeit" type="password" maxlength="1">
+			</div>
+			<button>Submit</button>
+		</form></center>
+		<h6>Forgot code?</h6>
+
+		<script type="text/javascript">
+			function lock(){
+				var code1 = document.getElementById('code1').value;
+				var code2 = document.getElementById('code2').value;
+				var code3 = document.getElementById('code3').value;
+				var code4 = document.getElementById('code4').value;
+
+				if(code1 == '1' && code2 == '2' && code3 == '3' && code4 == '4'){
+					document.myform.action = 'lock.html';
+				}
+			}
+		</script>
+	</body>
+</html>

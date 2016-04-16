@@ -1,0 +1,42 @@
+@import 'variables';
+@import 'body';
+
+img{
+	width: 11 * $column;
+	margin-top: 10 * $leading;
+}
+
+h1{
+	font-size: 8 * $font-size;
+	font-family: $font-family;
+	text-align: center;
+	color: $font-color;
+	margin-bottom: 5 * $leading;
+}
+
+form{
+	margin-top: 10 * $leading;
+}
+
+h6{
+	font-size: 3 * $font-size;
+	font-family: $font-family;
+	text-align: center;
+	color: $font-color;
+	margin-top: 10 * $leading;
+}
+
+.codeit{
+	width: 1.5 * $column;
+	height: 3.5 * $leading;
+	font-size: 4 * $font-size;
+	text-align: center;
+}
+
+button{
+	margin-top: 5 * $leading;
+	width: 2.5 * $column;	
+	font-size: 3 * $font-size;
+	background-color: $font-color;
+	color: $background;
+}	

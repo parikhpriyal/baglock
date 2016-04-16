@@ -1,0 +1,176 @@
+body {
+  margin: 0 auto;
+  max-width: 1000px;
+  max-height: 1740px;
+  background-color: #e6e6e6;
+}
+
+img {
+  width: 550px;
+  margin-top: 200px;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  color: #1C1549;
+  margin-bottom: 100px;
+}
+
+form {
+  margin-top: 200px;
+}
+
+h6 {
+  font-size: 30px;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  color: #1C1549;
+  margin-top: 200px;
+}
+
+.codeit {
+  width: 75px;
+  height: 70px;
+  font-size: 40px;
+  text-align: center;
+}
+
+button {
+  margin-top: 100px;
+  width: 125px;
+  font-size: 30px;
+  background-color: #1C1549;
+  color: #e6e6e6;
+}
+
+#left {
+  position: relative;
+  float: left;
+  width: 415px;
+  background-color: #e6e6e6;
+  border-right: 20px solid #1C1549;
+  height: 1740px;
+  border-top-right-radius: 4000px;
+}
+
+#right {
+  position: relative;
+  float: right;
+  width: 415px;
+  background-color: #e6e6e6;
+  border-left: 20px solid #1C1549;
+  height: 1740px;
+  border-top-left-radius: 4000px;
+}
+
+#middle {
+  position: relative;
+  float: left;
+  width: 105px;
+  height: 1740px;
+}
+
+#zip {
+  width: 100px;
+  height: 200px;
+  margin-top: 1530px;
+  margin-left: 5px;
+}
+
+#nav {
+  position: fixed;
+  z-index: 10;
+  margin-top: -520px;
+}
+#nav nav {
+  width: 1000px;
+  height: 502px;
+  background-color: #41576F;
+  z-index: 15;
+}
+#nav nav ul {
+  list-style: none;
+  z-index: 15;
+  padding-top: 20px;
+}
+#nav nav ul a {
+  text-decoration: none;
+}
+#nav nav ul a li {
+  font-size: 60px;
+  line-height: 120px;
+  margin-left: -60px;
+  text-align: center;
+  color: #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+#nav #navhead {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  background-color: #41576F;
+  z-index: 12;
+  margin-left: 415px;
+}
+
+#instruct {
+  position: fixed;
+  width: 750px;
+  background-color: #41576F;
+  opacity: 0.4;
+  font-size: 80px;
+  z-index: 1;
+  text-align: center;
+  margin-left: 115px;
+  margin-top: 800px;
+  color: #e6e6e6;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1000px;
+  max-height: 1740px;
+  background-color: #e6e6e6;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1000px;
+  max-height: 1740px;
+  background-color: #e6e6e6;
+}
+
+#container {
+  width: 750px;
+  margin: 0 auto;
+}
+#container h2 {
+  font-family: Verdana, sans-serif;
+  font-size: 30px;
+  padding-top: 30px;
+}
+#container .nots {
+  border: 1px solid #1C1549;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+#container .nots select {
+  width: 250px;
+  font-size: 200px;
+  padding: 10px;
+}
+#container .nots input[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+}
+#container input[type='range'] {
+  width: 600px;
+}

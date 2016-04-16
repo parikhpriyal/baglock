@@ -1,0 +1,41 @@
+@import 'variables';
+@import 'body';
+
+
+#container{
+	width: 15 * $column;
+	margin: 0 auto;
+
+	h2{
+		font-family: $font-family;
+		font-size: 3 * $font-size;
+		padding-top: 1.5 * $leading;
+	}	
+
+	.nots{
+		border: 1px solid $font-color;
+		padding:{
+			left: 2 * $leading;
+			bottom: 2 * $leading; 
+		}
+
+		select{
+			width: 5 * $column;
+			font-size: 10 * $leading;
+			padding: $font-size;
+		}
+
+		input[type='checkbox']{
+			width: $leading;
+			height: $leading;
+		}
+
+	}
+
+	input[type='range']{
+		width: 12 * $column;
+	}
+}
+
+
+
